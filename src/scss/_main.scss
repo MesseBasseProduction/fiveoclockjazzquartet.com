@@ -25,13 +25,13 @@ main.bio {
 
   section {
     display: grid;
-    grid-gap: 2rem;
     grid-template-columns: 50% 50%;
     max-width: 80%;
 
     div {
       cursor: pointer;
       position: relative;
+      margin: 1rem;
       transition: transform .1s;
 
       &:active,
@@ -71,6 +71,7 @@ main.bio {
 .modal-artist {
   font-size: 1.3rem;
   max-width: 66%;
+  overflow-y: auto;
   text-align: center;
 
   h1 {

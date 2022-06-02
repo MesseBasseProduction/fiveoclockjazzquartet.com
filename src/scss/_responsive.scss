@@ -122,6 +122,15 @@
       }
     }
   }
+
+  .modal-artist {
+    max-height: 95%;
+    max-width: 95%;
+  }
+
+  main.bio section p {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 512px) {

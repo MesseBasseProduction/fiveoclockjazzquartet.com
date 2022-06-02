@@ -278,7 +278,6 @@ class BW {
       overlay.style.display = 'flex';
       data.text().then(htmlString => {
         overlay.appendChild(document.createRange().createContextualFragment(htmlString));
-        
         requestAnimationFrame(() => overlay.style.opacity = 1);
       });
     }).catch(e => console.error(e) );
