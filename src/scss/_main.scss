@@ -1,19 +1,85 @@
-.band-info {
+main.bio {
+  flex-direction: column;
+  font-size: 1.4rem;
+  justify-content: flex-start;
+
+  nav {
+    padding-bottom: 3.6rem;
+    text-align: center;
+
+    img, h2 {
+      margin: 0 auto;
+      max-width: 80%;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      padding-top: 3.6rem;
+
+      a {
+        margin: 0 1rem;
+      }
+    }
+  }
+
+  section {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 50% 50%;
+    max-width: 80%;
+
+    div {
+      cursor: pointer;
+      position: relative;
+      transition: transform .1s;
+
+      &:active,
+      &:focus,
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    img:active + p,
+    img:focus + p,
+    img:hover + p {
+      opacity: 1;
+    }
+
+    p {
+      align-items: center;      
+      background: linear-gradient(transparent 20%, rgba(0, 0, 0, 1));      
+      bottom: 0;
+      display: flex;
+      font-size: 3.2rem;
+      height: 25%;
+      justify-content: center;
+      opacity: 0;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      transition: opacity .2s;
+    }
+  }
+}
+
+.modal-artist {
+  font-size: 1.3rem;
+  max-width: 66%;
   text-align: center;
 
-  img, h1, h2 {
-    margin-bottom: 2rem;
-  }
-
-  img {
-    width: 20rem;
-  }
-
   h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
+    margin-bottom: 1.3rem;
   }
 
-  h2 {
-    font-size: 2.2rem;
+  p {
+    text-indent: 1.3rem;
+    margin-bottom: 1.3rem;
   }
 }

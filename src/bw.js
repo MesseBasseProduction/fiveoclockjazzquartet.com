@@ -87,10 +87,18 @@ class BW {
 
   _buildIndexPage() {
     if (DEBUG === true) { console.log(`6. Init website with the artist main page`); }
-    document.querySelector('#band-name').innerHTML = this._nls.band.name;
     document.querySelector('#band-desc').innerHTML = this._nls.band.desc;
     document.querySelector('#listen-link').innerHTML = this._nls.listenLink;
     document.querySelector('#tree-link').innerHTML = this._nls.treeLink;
+
+    const artists = document.getElementById('artists');
+    for (let i = 0; i < artists.children.length; ++i) {
+      artists.children[i].addEventListener('click', this._artistModal.bind(this, artists.children[i].dataset.artist));
+    }
+
+    new window.ScrollBar({
+      target: document.body
+    });
   }
 
 
@@ -248,6 +256,32 @@ class BW {
     new window.ScrollBar({
       target: document.getElementById('link-wrapper')
     });
+  }
+
+
+  // Utils for main page
+
+
+  _artistModal(artist) {
+    const overlay = document.getElementById('modal-overlay');
+    const lang = (['de', 'es'].indexOf(this._lang) === -1) ? 'en' : this._lang; // Fallback to english if DE or ES
+    // Blur modal event
+    document.getElementById('modal-overlay').addEventListener('click', () => {
+      overlay.style.opacity = 0;
+      setTimeout(() => {
+        overlay.innerHTML = '';
+        overlay.style.display = 'none';
+      }, 400);
+    });
+    // Open modal event
+    fetch(`assets/html/${lang}/${artist}.html`).then(data => {
+      overlay.style.display = 'flex';
+      data.text().then(htmlString => {
+        overlay.appendChild(document.createRange().createContextualFragment(htmlString));
+        
+        requestAnimationFrame(() => overlay.style.opacity = 1);
+      });
+    }).catch(e => console.error(e) );
   }
 
 
