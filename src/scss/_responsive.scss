@@ -129,7 +129,12 @@
   }
 
   main.bio section p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    opacity: 1;
+
+    span {
+      font-size: 1.2rem;
+    }
   }
 }
 

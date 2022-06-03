@@ -4,7 +4,7 @@ main.bio {
   justify-content: flex-start;
 
   nav {
-    padding-bottom: 3.6rem;
+    padding: 3.6rem 0;
     text-align: center;
 
     img, h2 {
@@ -56,6 +56,7 @@ main.bio {
       background: linear-gradient(transparent 20%, rgba(0, 0, 0, 1));      
       bottom: 0;
       display: flex;
+      flex-direction: column;
       font-size: 3.2rem;
       height: 25%;
       justify-content: center;
@@ -65,6 +66,16 @@ main.bio {
       width: 100%;
       transition: opacity .2s;
     }
+
+    span {
+      display: block;
+      font-size: 1.8rem;
+    }
+  }
+
+  footer {
+    padding: 3.6rem 0;
+    text-align: center;
   }
 }
 
