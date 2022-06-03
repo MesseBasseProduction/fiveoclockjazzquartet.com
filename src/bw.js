@@ -264,7 +264,7 @@ class BW {
 
   _artistModal(artist) {
     const overlay = document.getElementById('modal-overlay');
-    const lang = (['de', 'es'].indexOf(this._lang) === -1) ? 'en' : this._lang; // Fallback to english if DE or ES
+    const lang = (['de', 'es'].indexOf(this._lang) !== -1) ? 'en' : this._lang; // Fallback to english if DE or ES
     // Blur modal event
     document.getElementById('modal-overlay').addEventListener('click', () => {
       overlay.style.opacity = 0;
