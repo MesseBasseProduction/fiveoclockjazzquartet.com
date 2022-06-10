@@ -1,6 +1,31 @@
 {
   "links": [
     {
+      "type": "spotify",
+      "name": "Spotify",
+      "url": "https://open.spotify.com/artist/1injtKwIcBZUzsrgAU8wcF"
+    },
+    {
+      "type": "apple",
+      "name": "Apple Music",
+      "url": "https://music.apple.com/artist/five-oclock-jazz-quartet/1627303294"
+    },
+    {
+      "type": "deezer",
+      "name": "Deezer",
+      "url": "https://www.deezer.com/artist/172037437"
+    },
+    {
+      "type": "amazon",
+      "name": "Amazon Music",
+      "url": "https://music.amazon.com/artists/B0B2VJLQF5/five-o'clock-jazz-quartet"
+    },
+    {
+      "type": "tidal",
+      "name": "Tidal",
+      "url": "https://listen.tidal.com/artist/32439916"
+    },
+    {
       "type": "facebook",
       "name": "Facebook",
       "url": "https://www.facebook.com/fiveoclockjazzquartet/"
@@ -39,16 +64,16 @@
       "links": [
         {
           "type": "spotify",
-          "url": ""
+          "url": "https://open.spotify.com/album/5BLDCpEclL7xKTuzPIdwB2"
         }, {
           "type": "apple",
-          "url": ""
+          "url": "https://music.apple.com/us/album/i-dont-know-enough-about-you-single/1627304441"
         }, {
           "type": "amazon",
-          "url": ""
+          "url": "https://music.amazon.com/albums/B0B2VFC5M2"
         }, {
           "type": "deezer",
-          "url": ""
+          "url": "https://www.deezer.com/album/323891267"
         }, {
           "type": "youtube",
           "url": "https://www.youtube.com/watch?v=pDGgZ-rn6Q4"
@@ -60,7 +85,7 @@
       "moreLinks": [
         {
           "type": "tidal",
-          "url": ""
+          "url": "https://listen.tidal.com/album/231661298"
         }, {
           "type": "pandora",
           "url": ""
