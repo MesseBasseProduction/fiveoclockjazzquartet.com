@@ -69,13 +69,17 @@ main.bio {
 
     span {
       display: block;
-      font-size: 1.8rem;
+      font-size: 1.1rem;
     }
   }
 
   footer {
     padding: 3.6rem 0;
     text-align: center;
+
+    a {
+      margin-bottom: .5rem;
+    }    
   }
 }
 

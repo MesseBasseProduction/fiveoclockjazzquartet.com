@@ -53,62 +53,6 @@
   ],
   "releases": [
     {
-      "title": "L.O.V.E",
-      "artist": "Five O'Clock Jazz Quartet",
-      "cover": "Love.webp",
-      "audio": "LoveExtract.mp3",
-      "date": "17-06-2022",
-      "duration": "1:42",
-      "label": "Messe Basse Production",
-      "labelLink": "https://messe-basse-production.com/",
-      "links": [
-        {
-          "type": "spotify",
-          "url": "https://open.spotify.com/album/3vYsLvXw6YSRdIdCJszTM8"
-        }, {
-          "type": "apple",
-          "url": "https://music.apple.com/us/album/l-o-v-e-single/1629309017"
-        }, {
-          "type": "amazon",
-          "url": "https://music.amazon.com/albums/B0B33T62KK"
-        }, {
-          "type": "deezer",
-          "url": "https://www.deezer.com/us/album/324468757"
-        }, {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=P5BRYJB6d80"
-        }, {
-          "type": "bandcamp",
-          "url": "https://fiveoclockjazzquartet.bandcamp.com/album/l-o-v-e"
-        }
-      ],
-      "moreLinks": [
-        {
-          "type": "tidal",
-          "url": "https://listen.tidal.com/album/231976481"
-        }, {
-          "type": "pandora",
-          "url": ""
-        }, {
-          "type": "genius",
-          "url": "https://genius.com/Five-oclock-jazz-quartet-love-lyrics"
-        }, {
-          "type": "discogs",
-          "url": " https://www.discogs.com/release/23633810-Five-OClock-Jazz-Quartet-LOVE"            
-        }, {
-          "type": "musicbrainz",
-          "url": ""
-        }
-      ],
-      "tracks": [
-        {
-          "title": "L.O.V.E",
-          "duration": "1:42",
-          "composer": "Bert Kaempfert",
-          "author": "Milt Gabler"
-        }
-      ]
-    }, {
       "title": "I Don't Know Enough About You",
       "artist": "Five O'Clock Jazz Quartet",
       "cover": "Enough.webp",
