@@ -53,6 +53,63 @@
   ],
   "releases": [
     {
+      "title": "Cry Me A River",
+      "artist": "Five O'Clock Jazz Quartet",
+      "cover": "Cry.webp",
+      "audio": "CryExtract.mp3",
+      "date": "02-07-2022",
+      "duration": "2:15",
+      "label": "Messe Basse Production",
+      "labelLink": "https://messe-basse-production.com/",
+      "links": [
+        {
+          "type": "spotify",
+          "url": "https://open.spotify.com/album/5lGMbNi9ZxBm5Feo4F7veM"
+        }, {
+          "type": "apple",
+          "url": "https://music.apple.com/us/album/cry-me-a-river-single/1632342706"
+        }, {
+          "type": "amazon",
+          "url": "https://music.amazon.com/albums/B0B4ZMK39Z"
+        }, {
+          "type": "deezer",
+          "url": "https://www.deezer.com/us/album/330377367"
+        }, {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=CeYUMy0VB3Q"
+        }, {
+          "type": "bandcamp",
+          "url": "https://fiveoclockjazzquartet.bandcamp.com/album/cry-me-a-river"
+        }
+      ],
+      "moreLinks": [
+        {
+          "type": "tidal",
+          "url": "https://listen.tidal.com/album/235025985"
+        }, {
+          "type": "pandora",
+          "url": ""
+        }, {
+          "type": "genius",
+          "url": "https://genius.com/Five-oclock-jazz-quartet-cry-me-a-river-lyrics"
+        }, {
+          "type": "discogs",
+          "url": " https://www.discogs.com/release/23776985-Five-OClock-Jazz-Quartet-Cry-Me-A-River"            
+        }, {
+          "type": "musicbrainz",
+          "url": ""
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Cry Me A River",
+          "duration": "2:15",
+          "composer": "Arthur Hamilton",
+          "author": "Arthur Hamilton"
+        }
+      ]
+    },
+    {
       "title": "L.O.V.E",
       "artist": "Five O'Clock Jazz Quartet",
       "cover": "Love.webp",
