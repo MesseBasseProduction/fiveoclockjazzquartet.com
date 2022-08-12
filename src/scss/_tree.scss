@@ -1,10 +1,25 @@
+body.tree .blurred-background {
+  background-image: url('/assets/img/releases/Enough.webp');
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  filter: blur(.5rem);
+  transform: scale(1.4);
+}
+
 .content {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(0, 0, 0, .83);
   border-radius: .5rem;
   max-height: 90%;
   max-width: 100rem;
   padding: 6rem 0;
   text-align: center;
+  z-index: 2;
 
   img.band-logo {
     height: 12rem;

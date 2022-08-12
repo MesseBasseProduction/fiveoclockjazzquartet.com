@@ -41,6 +41,22 @@ main {
   width: 100%;
 }
 
+.home {
+  position: fixed;
+  height: 2rem;
+  left: 2rem;
+  top: 2rem;
+  width: 2rem;
+  z-index: 3;
+  transition: filter .2s;
+
+  &:active,
+  &:focus,
+  &:hover {
+    filter: drop-shadow(0 0 0.25rem rgba(255, 255, 255, .7));
+  }
+}
+
 @import 'scss/main';
 @import 'scss/listen';
 @import 'scss/tree';
