@@ -96,6 +96,11 @@ class BW {
       artists.children[i].addEventListener('click', this._artistModal.bind(this, artists.children[i].dataset.artist));
     }
 
+    const releases = document.getElementById('releases');
+    for (let i = 0; i < releases.children.length; ++i) {
+      releases.children[i].addEventListener('click', this._openReleaseVideo.bind(this, releases.children[i].dataset.url));
+    }
+
     new window.ScrollBar({
       target: document.body
     });
@@ -281,6 +286,11 @@ class BW {
         requestAnimationFrame(() => overlay.style.opacity = 1);
       });
     }).catch(e => console.error(e) );
+  }
+
+
+  _openReleaseVideo(url) {
+    window.open(url, '_blank').focus();
   }
 
 
