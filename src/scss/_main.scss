@@ -3,6 +3,11 @@ main.bio {
   font-size: 1.4rem;
   justify-content: flex-start;
 
+  img, h2 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
   nav {
     padding: 3.6rem 0;
     text-align: center;
@@ -18,7 +23,31 @@ main.bio {
       padding-top: 3.6rem;
 
       a {
+        align-items: center;
+        border: solid .2rem #56D45B;
+        border-radius: .5rem;
+        display: flex;        
         margin: 0 1rem;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        transition: background-color .2s;
+
+        &:active,
+        &:focus,
+        &:hover {
+          background-color: rgba(102, 230, 107, .1);
+
+          img {
+            transform: rotate(20deg);
+          }
+        }
+
+        img {
+          height: 1.5rem;
+          margin-right: 1.5rem;
+          filter: invert(27%) sepia(28%) saturate(5861%) hue-rotate(138.3deg) brightness(120%) contrast(70%);
+          transition: transform .2s;
+        }
       }
     }
   }
@@ -26,6 +55,7 @@ main.bio {
   section {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-bottom: 3.6rem;
     max-width: 60%;
 
     div {
@@ -53,14 +83,16 @@ main.bio {
 
     p {
       align-items: center;      
-      background: linear-gradient(transparent 20%, rgba(0, 0, 0, 1));      
+      background: linear-gradient(transparent 10%, rgba(0, 0, 0, 1));      
       bottom: 0;
       display: flex;
       flex-direction: column;
-      font-size: 3.2rem;
-      height: 25%;
+      font-size: 2.6rem;
+      font-weight: bold;
+      height: 33%;
       justify-content: center;
       opacity: 0;
+      padding: 0 1rem;
       position: absolute;
       text-align: center;
       width: 100%;
@@ -70,6 +102,7 @@ main.bio {
     span {
       display: block;
       font-size: 1.1rem;
+      margin-top: 1rem;
     }
   }
 
@@ -78,14 +111,23 @@ main.bio {
     text-align: center;
 
     a {
+      color: white;
       margin-bottom: .5rem;
-    }    
+      text-decoration: none;
+      transition: color .2s;
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: #56D45B;
+      }
+    }
   }
 }
 
 .modal-artist {
   font-size: 1.3rem;
-  max-width: 66%;
+  max-width: 720px;
   overflow-y: auto;
   text-align: center;
 

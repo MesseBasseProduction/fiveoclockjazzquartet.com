@@ -143,6 +143,12 @@
 }
 
 @media (max-width: 512px) {
+  main.bio {
+    .artists {
+      grid-template-columns: 100%;
+    }
+  }
+
   main.creation {
     .music {
       .band {

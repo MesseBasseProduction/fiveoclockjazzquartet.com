@@ -87,9 +87,6 @@
           "type": "tidal",
           "url": "https://listen.tidal.com/album/235025985"
         }, {
-          "type": "pandora",
-          "url": ""
-        }, {
           "type": "genius",
           "url": "https://genius.com/Five-oclock-jazz-quartet-cry-me-a-river-lyrics"
         }, {
@@ -144,9 +141,6 @@
           "type": "tidal",
           "url": "https://listen.tidal.com/album/231976481"
         }, {
-          "type": "pandora",
-          "url": ""
-        }, {
           "type": "genius",
           "url": "https://genius.com/Five-oclock-jazz-quartet-love-lyrics"
         }, {
@@ -200,9 +194,6 @@
         {
           "type": "tidal",
           "url": "https://listen.tidal.com/album/231661298"
-        }, {
-          "type": "pandora",
-          "url": ""
         }, {
           "type": "genius",
           "url": "https://genius.com/Five-oclock-jazz-quartet-i-dont-know-enough-about-you-lyrics"
