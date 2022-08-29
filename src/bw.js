@@ -11,7 +11,7 @@ class BW {
     this._lang = (['fr', 'es', 'de'].indexOf(navigator.language.substring(0, 2)) !== -1) ? navigator.language.substring(0, 2) : 'en';
     this._nls = null;
     this._band = null;
-    this._version = '0.2.0';
+    this._version = '0.2.1';
 
     if (DEBUG === true) { console.log(`BandWebsite v${this._version} : Begin website initialization`); }
 
@@ -90,6 +90,10 @@ class BW {
     document.querySelector('#band-desc').innerHTML = this._nls.band.desc;
     document.querySelector('#listen-link').innerHTML = `<img src="/assets/img/controls/disc.svg" alt="listen">${this._nls.listenLink}`;
     document.querySelector('#tree-link').innerHTML = `<img src="/assets/img/controls/find.svg" alt="listen">${this._nls.treeLink}`;
+    const learnMoreList = document.getElementsByClassName('learn-more');
+    for (let i = 0; i < learnMoreList.length; ++i) {
+      learnMoreList[i].innerHTML = this._nls.learnMore;
+    }    
 
     const artists = document.getElementById('artists');
     for (let i = 0; i < artists.children.length; ++i) {
