@@ -49,6 +49,57 @@
   ],
   "releases": [
     {
+      "title": "Golden Earrings",
+      "artist": "Five O'Clock Jazz Quartet",
+      "cover": "Golden.webp",
+      "audio": "GoldenExtract.mp3",
+      "date": "15-09-2022",
+      "duration": "1:41",
+      "label": "Messe Basse Production",
+      "labelLink": "https://messe-basse-production.com/",
+      "links": [
+        {
+          "type": "spotify",
+          "url": "https://open.spotify.com/album/5272EhNHejZ2Dx2u0WQ5gb"
+        }, {
+          "type": "apple",
+          "url": ""
+        }, {
+          "type": "amazon",
+          "url": "https://music.amazon.com/albums/B0BDSMSXTQ"
+        }, {
+          "type": "deezer",
+          "url": "https://www.deezer.com/us/album/355206757"
+        }, {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=VOCa1cxx8vU"
+        }, {
+          "type": "tidal",
+          "url": "https://listen.tidal.com/album/247548890"
+        }
+      ],
+      "moreLinks": [
+        {
+          "type": "genius",
+          "url": ""
+        }, {
+          "type": "discogs",
+          "url": ""            
+        }, {
+          "type": "musicbrainz",
+          "url": ""
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Golden Earrings",
+          "duration": "1:41",
+          "composer": "Victor Young",
+          "author": "Jay Livingstone, Ray Evans"
+        }
+      ]
+    },
+    {
       "title": "Cry Me A River",
       "artist": "Five O'Clock Jazz Quartet",
       "cover": "Cry.webp",
