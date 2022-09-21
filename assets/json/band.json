@@ -63,7 +63,7 @@
           "url": "https://open.spotify.com/album/5272EhNHejZ2Dx2u0WQ5gb"
         }, {
           "type": "apple",
-          "url": ""
+          "url": "https://music.apple.com/album/golden-earrings-single/1645901303"
         }, {
           "type": "amazon",
           "url": "https://music.amazon.com/albums/B0BDSMSXTQ"
@@ -81,10 +81,10 @@
       "moreLinks": [
         {
           "type": "genius",
-          "url": ""
+          "url": "https://genius.com/Five-oclock-jazz-quartet-golden-earrings-lyrics"
         }, {
           "type": "discogs",
-          "url": ""            
+          "url": "https://www.discogs.com/release/24531575-Five-OClock-Jazz-Quartet-Golden-Earrings"            
         }, {
           "type": "musicbrainz",
           "url": ""
