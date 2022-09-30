@@ -49,6 +49,57 @@
   ],
   "releases": [
     {
+      "title": "Something Stupid",
+      "artist": "Five O'Clock Jazz Quartet",
+      "cover": "Stupid.webp",
+      "audio": "StupidExtract.mp3",
+      "date": "30-09-2022",
+      "duration": "1:57",
+      "label": "Messe Basse Production",
+      "labelLink": "https://messe-basse-production.com/",
+      "links": [
+        {
+          "type": "spotify",
+          "url": ""
+        }, {
+          "type": "apple",
+          "url": ""
+        }, {
+          "type": "amazon",
+          "url": ""
+        }, {
+          "type": "deezer",
+          "url": ""
+        }, {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=xNsV-CK2jyQ"
+        }, {
+          "type": "tidal",
+          "url": ""
+        }
+      ],
+      "moreLinks": [
+        {
+          "type": "genius",
+          "url": ""
+        }, {
+          "type": "discogs",
+          "url": "https://www.discogs.com/release/24674909-Five-OClock-Jazz-Quartet-Something-Stupid"
+        }, {
+          "type": "musicbrainz",
+          "url": ""
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Something Stupid",
+          "duration": "1:57",
+          "composer": "Carson Parks",
+          "author": "Carson Parks"
+        }
+      ]
+    },
+    {
       "title": "Golden Earrings",
       "artist": "Five O'Clock Jazz Quartet",
       "cover": "Golden.webp",
