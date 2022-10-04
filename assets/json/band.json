@@ -60,22 +60,22 @@
       "links": [
         {
           "type": "spotify",
-          "url": ""
+          "url": "https://open.spotify.com/album/2LUGK67nfu8kw2Lzn5nO9V"
         }, {
           "type": "apple",
-          "url": ""
+          "url": "https://music.apple.com/album/something-stupid-single/1647870792"
         }, {
           "type": "amazon",
-          "url": ""
+          "url": "https://music.amazon.com/albums/B0BH1NP764"
         }, {
           "type": "deezer",
-          "url": ""
+          "url": "https://www.deezer.com/album/362398097"
         }, {
           "type": "youtube",
           "url": "https://www.youtube.com/watch?v=xNsV-CK2jyQ"
         }, {
           "type": "tidal",
-          "url": ""
+          "url": "https://listen.tidal.com/album/251529417"
         }
       ],
       "moreLinks": [
