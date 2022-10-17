@@ -49,6 +49,57 @@
   ],
   "releases": [
     {
+      "title": "Stompin' At The Savoy",
+      "artist": "Five O'Clock Jazz Quartet",
+      "cover": "Savoy.webp",
+      "audio": "SavoyExtract.mp3",
+      "date": "15-10-2022",
+      "duration": "1:03",
+      "label": "Messe Basse Production",
+      "labelLink": "https://messe-basse-production.com/",
+      "links": [
+        {
+          "type": "spotify",
+          "url": "https://open.spotify.com/album/6W1DkRKTVY26vkfshJQ8TK"
+        }, {
+          "type": "apple",
+          "url": "https://music.apple.com/album/stompin-at-the-savoy-single/1646368567"
+        }, {
+          "type": "amazon",
+          "url": "https://music.amazon.com/albums/B0BDZB5HBC"
+        }, {
+          "type": "deezer",
+          "url": "https://www.deezer.com/album/356066677"
+        }, {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=pHpE28vlW-0"
+        }, {
+          "type": "tidal",
+          "url": "https://listen.tidal.com/album/247969201"
+        }
+      ],
+      "moreLinks": [
+        {
+          "type": "genius",
+          "url": ""
+        }, {
+          "type": "discogs",
+          "url": "https://www.discogs.com/release/24849332-Five-OClock-Jazz-Quartet-Stompin-At-The-Savoy"
+        }, {
+          "type": "musicbrainz",
+          "url": ""
+        }
+      ],
+      "tracks": [
+        {
+          "title": "Stompin' At The Savoy",
+          "duration": "1:03",
+          "composer": "Benny Goodman, Chick Webb, Edgar Sampson",
+          "author": "Andy Razaf"
+        }
+      ]
+    },
+    {
       "title": "Something Stupid",
       "artist": "Five O'Clock Jazz Quartet",
       "cover": "Stupid.webp",
